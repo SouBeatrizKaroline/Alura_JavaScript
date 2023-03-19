@@ -1,0 +1,96 @@
+JavaScript é uma linguagem interpretada!
+
+Existem lingagens compiladas e interpretadas
+
+O navegador é o ambiente original nativo de execução do JavaScript
+
+
+O que é o NodeJS?
+
+É um ambiente de execução/pacote de codigo
+
+
+Para que é usado?
+
+ChatBots
+Web Scraping
+REST APIs
+IoT
+Streaming
+Web Servers
+
+"Costuma" ser o desenvolvimento Web BackEnd
+E no Front End para trabalhar com APIs
+
+
+NodeJS vs JavaScript
+
+NodeJS é JavaSript?
+No JS todas as funcionalidades da linguagem é implementado no motor de interpretação/navegador
+
+
+O NPM/YARN
+
+Gerenciadores de pacotes
+São repositorios de codigo, voltados para o Node
+NPM já vem instalado por padrão no node, mas pode instalar o Yarn pelo NPM
+
+npm install express
+node_modules
+no node_modules ficam os arquivos necessarios para que as dependencias funcionem
+O express para começar a funcionar, trás consigo 50 depdendencias
+
+npm install react
+React é um framework JavaScript
+Mesmo quando trabalhamos com JS hospedado no navegador, precisamos de coisas que estão fora dele
+
+jQuery
+Antigamente se baixava o codigom e colocava em jQuery.js 
+npm install jquery
+
+
+O package.json
+
+Arquivo manifesto de qualquer projeto que use Node
+É o manual de qualquer projeto Node
+Guarda varias informações importantes para o projeto
+Ele tem a lista de dependencias do projeto e as versões dessa dependencia
+Dependencias: Todo conjunto de dados que faz uma tarefa
+
+
+Instalação e uso
+
+nodejs.org
+node - v | node -version
+node
+ctrl C | ctrl D
+
+ERROS COMUNS:
+ENOTFOUND
+Error: not found - Retorna quando o Node.js tenta estabelecer uma conexão com um servidor e a tentativa falha no DNS lookup; ou seja, ou o host não existe ou há algum erro no endereço fornecido, que não consegue ser resolvido pelo DNS.
+
+Algumas das soluções possíveis: verifique se a URL fornecida realmente existe e se a string com a URL está sendo fornecida da forma correta para a função ou método que fará a conexão.
+
+ENOENT
+Error: no entity - Como vimos no curso, muitas vezes acontece quando um caminho especificado, seja um diretório ou um arquivo, não existe no sistema de arquivos. Neste caso, temos que verificar se o caminho fornecido está correto.
+
+Importante: algumas operações com fs requerem o uso do caminho absoluto de um arquivo ou diretório. Para “montar” a string com estes caminhos, você pode utilizar uma das libs mais comuns do Node.js, a path.
+
+EISDIR
+Error: is a directory - O caminho fornecido é um diretório. Normalmente vemos este erro quando o programa esperava receber um caminho de um arquivo, mas ao invés disso recebeu um diretório. Novamente, devemos verificar a string recebida pela função ou método para conferir se está completa e montada da forma correta.
+
+ENOTDIR
+Error: not a directory - é o contrário do erro anterior, quando o programa espera receber o caminho de um diretório mas recebe o caminho de um arquivo.
+
+EADDRINUSE
+Error: address already in use - Muitas vezes este erro acontece quando estamos iniciando ou reiniciando um servidor web. Ele indica que o servidor está tentando se conectar a uma porta lógica que já está sendo ocupada por outro programa.
+
+Você pode conferir mais sobre servidores web e portas de conexão em nosso curso de fundamentos do HTTP.
+
+ECONNREFUSED
+Error: connection refused - Houve uma tentativa de envio de requisição a um endpoint, porém a conexão foi recusada. Normalmente é causada por inatividade do serviço que está sendo requisitado.
+
+ECONNRESET
+Error: connection reset - Uma conexão em andamento foi fechada durante o processo de requisição-resposta, antes que a resposta fosse recebida. Pode ser causada por um timeout ou reinício do servidor.
+
+A lista completa de erros pode ser conferida aqui, direto na documentação do Node.js.
