@@ -2,7 +2,7 @@
 
 > JavaScript
 
-- Documentação: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+- [🔗 Documentação JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## 🛠 Cursos
 
