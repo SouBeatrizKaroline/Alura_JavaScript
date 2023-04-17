@@ -1,8 +1,8 @@
-# Alura
+# Estudando com Alura
 
 > JavaScript
 
-Estudos
+- Documentação: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 
 ## 🛠 Cursos
 
